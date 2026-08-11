@@ -6,7 +6,7 @@
   "action": { "default_title": "Open Supportable" },
   "background": { "scripts": ["background.firefox.js"] },
   "permissions": ["activeTab", "scripting", "storage", "tabs"],
-  "host_permissions": ["https://*.supabase.co/*", "https://supportable.emptinessbliss15.workers.dev/*"],
+  "host_permissions": ["<all_urls>", "https://*.supabase.co/*", "https://supportable.emptinessbliss15.workers.dev/*"],
   "sidebar_action": {
     "default_title": "Supportable",
     "default_panel": "panel.html"
