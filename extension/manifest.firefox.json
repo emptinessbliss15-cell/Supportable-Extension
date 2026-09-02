@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Supportable",
+  "version": "0.3.1",
+  "description": "Supportable sidebar for Firefox.",
+  "action": { "default_title": "Open Supportable" },
+  "background": { "scripts": ["background.firefox.js"] },
+  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "host_permissions": ["<all_urls>", "https://*.supabase.co/*", "https://supportable.emptinessbliss15.workers.dev/*"],
+  "sidebar_action": {
+    "default_title": "Supportable",
+    "default_panel": "panel.html"
+  },
+  "options_ui": { "page": "options.html", "open_in_tab": true }
+}
